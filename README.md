@@ -51,6 +51,8 @@ The website is designed with reusability and scalability in mind, using a consis
 
 ## 🧭 Pages Structure
 
-<img width="1920" height="1080" alt="Screenshot (21)" src="https://github.com/user-attachments/assets/d80cdbf3-0a77-4bc1-a0db-bca5a9270f7e" />
-<img width="1920" height="1080" alt="Screenshot (22)" src="https://github.com/user-attachments/assets/79d53600-bcb5-4e54-8546-3d136d5fe50f" />
+
+<img width="1920" height="968" alt="Screenshot (21)" src="https://github.com/user-attachments/assets/863b363d-16d1-4e89-8cdf-e2e2b1d65db2" />
+<img width="1920" height="952" alt="Screenshot (22)" src="https://github.com/user-attachments/assets/01742401-7958-4fe3-8188-ff53862ce265" />
+<img width="1920" height="970" alt="Screenshot (23)" src="https://github.com/user-attachments/assets/0573eb18-b9c7-41bd-bbf1-4d14436c978a" />
 
