@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Donate | Shri Siddhivinayak Temple</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <style>
+    .donate-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 50px;
+      max-width: 1200px;
+      margin: 50px auto;
+      padding: 0 20px;
+    }
+
+    .bank-details,
+    .donate-form {
+      flex: 1;
+      min-width: 300px;
+      padding: 40px;
+      border-radius: 16px;
+      /* Use global card styles variables if possible, or replicate */
+      background: var(--bg-secondary);
+      border: 1px solid var(--glass-border);
+      box-shadow: var(--glass-shadow);
+      backdrop-filter: blur(5px);
+      color: var(--text-main);
+    }
+
+    .bank-details h3,
+    .donate-form h3 {
+      color: var(--primary-gold);
+      font-family: var(--font-heading);
+      margin-bottom: 20px;
+      border-bottom: 2px solid var(--primary-gold);
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    .detail-row {
+      margin-bottom: 15px;
+      font-size: 1.1rem;
+      color: var(--text-main);
+    }
+
+    .detail-row span {
+      font-weight: bold;
+      color: var(--primary-gold);
+      display: block;
+      font-size: 0.9rem;
+      opacity: 0.8;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="preloader"></div>
+  <div id="cursor"></div>
+
+  <header></header>
+
+  <section class="content">
+    <h2 style="margin-top: 50px;">Support the Temple</h2>
+    <p style="text-align: center; max-width: 700px; margin: 0 auto 30px;">
+      Your contributions help us maintain the temple sanctity, conduct daily rituals, and serve the community.
+      May Lord Siddhivinayak bless you abundantly.
+    </p>
+
+    <div class="donate-container">
+      <!-- Bank Details -->
+      <div class="bank-details">
+        <h3>Bank Transfer Details</h3>
+        <p style="margin-bottom: 20px;">You can transfer funds directly to our trust account via NEFT/IMPS/UPI.</p>
+
+        <div class="detail-row">
+          <span>Account Name</span>
+          Shri Siddhivinayak Temple Trust
+        </div>
+        <div class="detail-row">
+          <span>Bank Name</span>
+          State Bank of India
+        </div>
+        <div class="detail-row">
+          <span>Account Number</span>
+          1234 5678 9012
+        </div>
+        <div class="detail-row">
+          <span>IFSC Code</span>
+          SBIN0001234
+        </div>
+        <div class="detail-row">
+          <span>Branch</span>
+          Yellapur
+        </div>
+      </div>
+
+      <!-- Donation Form -->
+      <div class="donate-form">
+        <h3>Donation/Seva Form</h3>
+        <form>
+          <input type="text" placeholder="Devotee Name" required>
+          <input type="text" placeholder="Gotra / Nakshatra (Optional)">
+          <input type="number" placeholder="Amount (INR)" required>
+          <select
+            style="width: 100%; padding: 12px; margin-bottom: 15px; background: rgba(255, 255, 255, 0.1); border: 1px solid var(--glass-border); color: var(--text-main); border-radius: 4px;">
+            <option value="" style="color: black;">Select Seva</option>
+            <option value="General" style="color: black;">General Donation</option>
+            <option value="Annadanam" style="color: black;">Annadanam</option>
+            <option value="Puja" style="color: black;">Special Puja</option>
+          </select>
+          <input type="email" placeholder="Email Address" required>
+          <button type="submit">Proceed to Pay / Submit Details</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer></footer>
+
+  <script src="js/components.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
